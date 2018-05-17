@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+
+        <label for="username">Firstname: </label>
+        <input type="text" id="firstname" name="firstname">
+        <br>
+
+        <label for="lastname">Lastname: </label>
+        <input type="text" id="lastname" name="lastname">
+        <br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email">
+        <br>
+
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password">
+        <br>
+
+        <label for="dob">Birth Date</label>
+        <input type="date" id="dob" name="birthday">
+        <br> Gender:
+        <br>
+        <input type="radio" name="gender" value="Male">Male
+        <br>
+        <input type="radio" name="gender" value="Female">Female
+        <br>
+        <input type="radio" name="gender" value="Othes">Others
+        <br> Pets:
+        <br>
+        <input type="checkbox" name="Dog">Dog
+        <br>
+        <input type="checkbox" name="Cat">Cat
+        <br> Cars:
+        <br>
+
+        <select name="cars" id="cars">
+            <option value="Volvo">Volvo</option>
+            <option value="Audi">Audi</option>
+        </select>
+        <br>
+        <br>
+
+        <input type="submit" value="Register">
+        <input type="reset">
+
+        <!--
+        http://127.0.0.1:5500/register.html?
+        firstname=fake
+        &lastname=sdfds
+        &email=dsfds%40gmail.com
+        &password=sdfd
+        &birthday=2018-05-09
+        &gender=Male
+        &Dog=on
+        &cars=Audi
+    -->
+
+    </form>
+</body>
+
+</html>
